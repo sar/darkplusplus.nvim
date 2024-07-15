@@ -174,7 +174,7 @@ theme.set_highlights = function()
   hl(0, "@text.danger", { link = 'WarningMsg' })
   hl(0, "@tag", { link = 'Tag' })
   hl(0, "@tag.attribute", { fg = c.light_blue, bg = 'NONE', italic = true, })
-  hl(0, "@tag.delimiter", { fg = c.gray, bg = 'NONE' })
+  hl(0, "@tag.delimiter", { fg = c.context, bg = 'NONE' })
 
   -- markdown
   hl(0, "markdownBlockquote", { fg = c.orange, bg = 'NONE' })
